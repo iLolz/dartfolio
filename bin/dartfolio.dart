@@ -1,5 +1,9 @@
 import 'package:dartfolio/dartfolio.dart' as dartfolio;
 
-void main() {
-  print('Hello world: ${dartfolio.calculate()}!');
-}
+import 'dart:io';
+
+int calculate() {
+  print("Alencar A. Moreira");
+  int a = int.parse(stdin.readLineSync(encoding: utf8)!);
+  int b = int.parse(stdin.readLineSync(encoding: utf8)!);
+
